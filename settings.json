@@ -1,0 +1,219 @@
+{
+  "editor.fontFamily": "'Source Code Pro', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 12,
+  "languageServerHaskell.useHieWrapper": true,
+  "editor.multiCursorModifier": "alt",
+  "languageServerHaskell.trace.server": "verbose",
+  "languageServerHaskell.useCustomHieWrapper": true,
+  "files.watcherExclude": {
+    "**/.ammonite": true,
+    "**/.bloop": true,
+    "**/.metals": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vs-kubernetes": {
+    "vs-kubernetes.minikube-path.linux": "/home/oliver/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.minikube-path.linux": "/home/oliver/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "debug.console.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
+  "githubPullRequests.queries": [
+    {
+      "label": "Waiting For My Review",
+      "query": "is:open review-requested:${user}"
+    },
+    {
+      "label": "Assigned To Me",
+      "query": "is:open assignee:${user}"
+    },
+    {
+      "label": "Created By Me",
+      "query": "is:open author:${user}"
+    }
+  ],
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.scrollback": 20000,
+  "todo-tree.tree.showScanModeButton": false,
+  "metals.serverVersion": "",
+  "redhat.telemetry.enabled": false,
+  "clangd.onConfigChanged": "restart",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.external.linuxExec": "urxvtc",
+  "remoteHub.search.download.enabled": true,
+  "githubPullRequests.fileListLayout": "tree",
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "workbench.list.automaticKeyboardNavigation": false,
+  "metals.excludedPackages": ["akka.actor.typed.javadsl", "akka.http.javadsl"],
+  "metals.scalafixConfigPath": "/home/oliver/.scalafix.conf",
+  "vscode-neovim.mouseSelectionStartVisualMode": true,
+  "vscode-neovim.highlightGroups.highlights": {
+    "Directory": "vim",
+    "IncSearch": {
+      "backgroundColor": "theme.editor.findMatchBackground",
+      "borderColor": "theme.editor.findMatchBorder"
+    },
+    "Search": {
+      "backgroundColor": "theme.editor.findMatchHighlightBackground",
+      "borderColor": "theme.editor.findMatchHighlightBorder"
+    },
+    "Visual": {
+      "backgroundColor": "theme.editor.selectionBackground"
+    },
+    "Conceal": "vim",
+    "Substitute": "vim"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "metals.superMethodLensesEnabled": false,
+  "files.exclude": {
+    "**/.metals": true,
+    "**/node_modules/*/**": true
+  },
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.showExpandedAbbreviation": "never",
+  "git.confirmSync": false,
+  "vscode-neovim.revealCursorScrollLine": true,
+  "vscode-neovim.logLevel": "warn",
+  "editor.folding": false,
+  "eslint.alwaysShowStatus": true,
+  "eslint.lintTask.enable": true,
+  "eslint.workingDirectories": [
+    {
+      "directory": "frontend",
+      "changeProcessCWD": true
+    }
+  ],
+  "haskell.openDocumentationInHackage": false,
+  "editor.parameterHints.cycle": true,
+  "vscode-neovim.textDecorationsAtTop": true,
+  "react-native-tools.showUserTips": false,
+  "prettier.arrowParens": "avoid",
+  "vscode-neovim.logOutputToConsole": true,
+  "vscode-neovim.useCtrlKeysForInsertMode": false,
+  "explorer.confirmDragAndDrop": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "search.mode": "reuseEditor",
+  "search.useGlobalIgnoreFiles": true,
+  "editor.formatOnSave": true,
+  "diffEditor.renderSideBySide": false,
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.enabled": false,
+  "rust.build_on_save": true,
+  "rust.all_targets": false,
+  "rust-analyzer.inlayHints.chainingHints": false,
+  "rust-analyzer.inlayHints.enable": false,
+  "workbench.colorCustomizations": {
+    "[One Dark Theme]": {
+      "editor.selectionBackground": "#3E4451"
+    }
+  },
+  "workbench.colorTheme": "One Dark Theme",
+  "vscode-neovim.neovimInitVimPaths.linux": " /home/oliver/.config/nvim/init.vim",
+  "editor.formatOnPaste": true,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.sneak": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.highlightedyank.enable": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-d>"],
+      "commands": ["editor.action.addSelectionToNextFindMatch"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<C-d>"],
+      "commands": ["editor.action.addSelectionToNextFindMatch"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "after": ["g", "h"]
+    },
+    {
+      "before": ["H"],
+      "commands": ["workbench.action.previousEditorInGroup"]
+    },
+    {
+      "before": ["L"],
+      "commands": ["workbench.action.nextEditorInGroup"]
+    },
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.referenceSearch.trigger"]
+    },
+    {
+      "before": ["g", "s"],
+      "commands": ["metals.goto-super-method"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-d>": true
+  },
+  "editor.formatOnSaveMode": "modifications"
+}
