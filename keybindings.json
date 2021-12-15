@@ -481,5 +481,13 @@
   {
     "key": "ctrl+g",
     "command": "-workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "workbench.action.moveEditorToPreviousGroup"
   }
 ]
