@@ -197,11 +197,15 @@
     },
     {
       "before": ["<leader>", "e"],
-      "commands": ["workbench.view.explorer"]
+      "commands": ["workbench.action.toggleSidebarVisibility"]
     },
     {
       "before": ["g", "r"],
       "commands": ["editor.action.referenceSearch.trigger"]
+    },
+    {
+      "before": ["g", "l"],
+      "commands": ["editor.action.goToImplementation"]
     },
     {
       "before": ["g", "s"],
@@ -226,9 +230,9 @@
   ],
   "vim.leader": "<space>",
   "vim.handleKeys": {
+    "<C-c>": false,
     "<C-a>": true,
     "<C-f>": false,
     "<C-d>": true
-  },
-  "editor.formatOnSaveMode": "modifications"
+  }
 }
