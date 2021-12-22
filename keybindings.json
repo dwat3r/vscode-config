@@ -489,5 +489,25 @@
   {
     "key": "ctrl+shift+h",
     "command": "workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.compareEditor.nextChange",
+    "when": "editorTextFocus && textCompareEditorVisible"
+  },
+  {
+    "key": "alt+f5",
+    "command": "-workbench.action.compareEditor.nextChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.compareEditor.previousChange",
+    "when": "editorTextFocus && textCompareEditorVisible"
+  },
+  {
+    "key": "shift+alt+f5",
+    "command": "-workbench.action.compareEditor.previousChange",
+    "when": "textCompareEditorVisible"
   }
 ]

@@ -168,6 +168,10 @@
     {
       "before": ["<C-g>"],
       "commands": ["editor.action.smartSelect.expand"]
+    },
+    {
+      "before": ["y"],
+      "after": ["y", "`", ">"]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -234,5 +238,7 @@
     "<C-a>": true,
     "<C-f>": false,
     "<C-d>": true
-  }
+  },
+  "editor.cursorBlinking": "solid",
+  "rust-analyzer.checkOnSave.command": "clippy"
 }
