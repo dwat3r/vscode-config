@@ -240,5 +240,6 @@
     "<C-d>": true
   },
   "editor.cursorBlinking": "solid",
-  "rust-analyzer.checkOnSave.command": "clippy"
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "editor.formatOnSaveMode": "modifications"
 }
